@@ -1,0 +1,36 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^3.8.3
+  audioplayers: ^5.2.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/
+    - assets/sounds/click.mp3
+    - assets/sounds/clear.mp3
+    - assets/sounds/goodjob.mp3
+    - assets/images/cracker.png
+    - assets/images/clear.png
+    - assets/images/random_clear.png 
+    - assets/images/goodjob.png
+
+
+  
